@@ -1,0 +1,33 @@
+run this command for all chapters for every one chapter (again and again)
+
+npm init
+or
+npm init -y  
+
+npm i express
+
+npm i morgan
+
+npm i nodemon  > for every one chapter (again and again)
+
+npm i nodemon -g > for globely  > after this no need for install for all project individualy it install globally 
+
+
+npm install axios
+npm i cors
+-------------------       and script in package json 
+
+-------
+"scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+----------------
+npm install dotenv  for .env file for variables ( it must create manuely )
+after this env variable is used as
+process.end.your_variable_name
+
+
+

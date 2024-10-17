@@ -1,0 +1,1 @@
+this is example of server or routing in node js without express with json data (fix file of json data)

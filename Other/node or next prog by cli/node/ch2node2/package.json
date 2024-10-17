@@ -1,0 +1,15 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "ch2",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

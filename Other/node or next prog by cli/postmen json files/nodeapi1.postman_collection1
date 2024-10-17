@@ -1,0 +1,219 @@
+{
+	"info": {
+		"_postman_id": "3991fd9f-6dab-40b8-8a04-b9a66c5e4827",
+		"name": "nodeapi1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12168624"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/product/4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 29,\r\n        \"title\": \"Handcraft Chinese style\",\r\n        \"description\": \"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate\",\r\n        \"price\": 60,\r\n        \"discountPercentage\": 15.34,\r\n        \"rating\": 4.44,\r\n        \"stock\": 7,\r\n        \"brand\": \"luxury palace\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/29/thumbnail.webp\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/newproduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"newproduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/newproduct",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"title\": \"skp Handcraft Chinese style\",\r\n        \"price\": 9996\r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/newproduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 26,\r\n        \"title\": \"Plant Hanger For Home\",\r\n        \"description\": \"Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf\",\r\n        \"price\": 41,\r\n        \"discountPercentage\": 17.86,\r\n        \"rating\": 4.08,\r\n        \"stock\": 131,\r\n        \"brand\": \"Boho Decor\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\",\r\n        \"images\": [\r\n            \"https://i.dummyjson.com/data/products/26/1.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/2.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/3.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/4.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/5.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/newproduct",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 26,\r\n        \"title\": \"Plant Hanger For Home\",\r\n        \"description\": \"Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf\",\r\n        \"price\": 41,\r\n        \"discountPercentage\": 17.86,\r\n        \"rating\": 4.08,\r\n        \"stock\": 131,\r\n        \"brand\": \"Boho Decor\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\",\r\n        \"images\": [\r\n            \"https://i.dummyjson.com/data/products/26/1.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/2.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/3.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/4.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/5.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/product/4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 29,\r\n        \"title\": \"Handcraft Chinese style\",\r\n        \"description\": \"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate\",\r\n        \"price\": 60,\r\n        \"discountPercentage\": 15.34,\r\n        \"rating\": 4.44,\r\n        \"stock\": 7,\r\n        \"brand\": \"luxury palace\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/29/thumbnail.webp\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/product",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"title\": \"skp Handcraft Chinese style\",\r\n        \"price\": 9996\r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

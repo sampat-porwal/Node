@@ -1,0 +1,1 @@
+this is example of server or routing ,restapi,middelware in node js with express with json data (fix file of json data)

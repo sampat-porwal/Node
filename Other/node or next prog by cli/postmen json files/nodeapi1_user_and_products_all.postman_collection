@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "3991fd9f-6dab-40b8-8a04-b9a66c5e4827",
+		"name": "nodeapi1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12168624"
+	},
+	"item": [
+		{
+			"name": "GetAllProducts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 26,\r\n        \"title\": \"Plant Hanger For Home\",\r\n        \"description\": \"Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf\",\r\n        \"price\": 41,\r\n        \"discountPercentage\": 17.86,\r\n        \"rating\": 4.08,\r\n        \"stock\": 131,\r\n        \"brand\": \"Boho Decor\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\",\r\n        \"images\": [\r\n            \"https://i.dummyjson.com/data/products/26/1.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/2.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/3.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/4.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/5.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addOneProducts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"title\": \"hhyyyhppHandcraft Chinese style\",\r\n        \"description\": \"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate\",\r\n        \"price\": 60,\r\n        \"discountPercentage\": 15.34,\r\n        \"rating\": 4.44,\r\n        \"stock\": 7,\r\n        \"brand\": \"luxury palace\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/29/thumbnail.webp\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"title\": \"hhyyyhppHandcraft Chinese style\",\r\n        \"description\": \"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate\",\r\n        \"price\": 60,\r\n        \"discountPercentage\": 15.34,\r\n        \"rating\": 4.44,\r\n        \"stock\": 7,\r\n        \"brand\": \"luxury palace\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/29/thumbnail.webp\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProductsById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"title\": \"skp Handcraft Chinese style\",\r\n        \"price\": 9996\r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080\\products\\64b8e810aa5953bc046fb200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products",
+						"64b8e810aa5953bc046fb200"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUserById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 26,\r\n        \"title\": \"Plant Hanger For Home\",\r\n        \"description\": \"Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf\",\r\n        \"price\": 41,\r\n        \"discountPercentage\": 17.86,\r\n        \"rating\": 4.08,\r\n        \"stock\": 131,\r\n        \"brand\": \"Boho Decor\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\",\r\n        \"images\": [\r\n            \"https://i.dummyjson.com/data/products/26/1.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/2.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/3.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/4.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/5.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllUser",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "age",
+						"value": "46",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"id\": 26,\r\n        \"title\": \"Plant Hanger For Home\",\r\n        \"description\": \"Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf\",\r\n        \"price\": 41,\r\n        \"discountPercentage\": 17.86,\r\n        \"rating\": 4.08,\r\n        \"stock\": 131,\r\n        \"brand\": \"Boho Decor\",\r\n        \"category\": \"home-decoration\",\r\n        \"thumbnail\": \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\",\r\n        \"images\": [\r\n            \"https://i.dummyjson.com/data/products/26/1.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/2.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/3.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/4.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/5.jpg\",\r\n            \"https://i.dummyjson.com/data/products/26/thumbnail.jpg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
